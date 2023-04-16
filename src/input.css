@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* primary_color */
+.link{
+    @apply  py-4   font-bold  cursor-pointer
+}
+
+.active{
+    @apply text-green-800
+}
+
+.btn{
+    @apply px-3 py-2 text-white bg-colors-primary
+}
+
+.image_links{
+    @apply btn font-semibold transition-all duration-700 hover:text-colors-primary hover:bg-white
+}
